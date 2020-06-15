@@ -3,6 +3,13 @@
   margin-bottom: 20px;
 }
 
+.fileupload {
+  margin-top: 20px;
+  font-family: Europa, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .w-form-formradioinput--inputType-custom {
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -727,6 +734,11 @@
     font-size: 15px;
     line-height: 15px;
   }
+  
+  .fileupload {
+    font-size: 15px;
+  }
+  
   .textarea {
     font-size: 15px;
   }
