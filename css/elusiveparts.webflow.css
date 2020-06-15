@@ -660,6 +660,15 @@
   text-decoration: underline;
 }
 
+.link-4 {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-4:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     top: 0px;
