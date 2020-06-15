@@ -630,6 +630,36 @@
   background-color: #333;
 }
 
+.link-3 {
+  margin-top: 20px;
+  font-family: Europa, sans-serif;
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-3:hover {
+  text-decoration: underline;
+}
+
+.button-3 {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  background-color: #565f67;
+  font-family: Europa, sans-serif;
+  color: #f6f6f6;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button-3:hover {
+  background-color: #f6f6f6;
+  color: #565f67;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     top: 0px;
