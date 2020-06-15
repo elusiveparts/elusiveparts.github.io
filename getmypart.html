@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jun 15 2020 11:04:12 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jun 15 2020 12:57:36 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ede459a0935f158c1531609" data-wf-site="5ed508c13bded9cb148949b4">
 <head>
   <meta charset="utf-8">
@@ -31,12 +31,16 @@
       <h1 class="heading">HELP ME GET MY PART.</h1>
       <p class="paragraph">We are currently looking to expand our catalogue of parts. Share your name, contact information and details of your part below and we will be in touch as soon as possible to discuss getting it made.</p>
       <div class="w-form">
-        <form id="wf-form-Help-Me-Get-My-Part-Form" name="wf-form-Help-Me-Get-My-Part-Form" data-name="Help Me Get My Part Form" method="post" action="https://my.formsparrow.com/api/f82bb5aab8a535023099412c11c281b7" enctype='multipart/form-data' class="form">
+        <form id="wf-form-Help-Me-Get-My-Part-Form" name="wf-form-Help-Me-Get-My-Part-Form" data-name="Help Me Get My Part Form" method="post" action="https://my.formsparrow.com/api/f82bb5aab8a535023099412c11c281b7" enctype="multipart/form-data" class="form">
           <h1 class="heading-2">About You</h1>
           <p class="paragraph">Contact Details</p>
           <div class="w-row">
-            <div class="column w-col w-col-6"><label for="First-Name" class="field-label">First Name*</label><input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="" id="First-Name" required=""><label for="Email" class="field-label">Email Address*</label><input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="" id="Email" required=""></div>
-            <div class="column w-col w-col-6"><label for="Last-Name" class="field-label">Last Name*</label><input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="" id="Last-Name" required=""><label for="Phone" class="field-label">Telephone Number</label><input type="tel" class="text-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="" id="Phone"></div>
+            <div class="column w-col w-col-6"><label for="First-Name" class="field-label">First Name*</label><input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="" id="First-Name" required=""></div>
+            <div class="column w-col w-col-6"><label for="Last-Name" class="field-label">Last Name*</label><input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="" id="Last-Name" required=""></div>
+          </div>
+          <div class="w-row">
+            <div class="column w-col w-col-6"><label for="Email-2" class="field-label">Email Address*</label><input type="email" class="text-field w-input" maxlength="256" name="Email-2" data-name="Email 2" placeholder="" id="Email-2" required=""></div>
+            <div class="column w-col w-col-6"><label for="Phone-2" class="field-label">Telephone Number</label><input type="tel" class="text-field w-input" maxlength="256" name="Phone-2" data-name="Phone 2" placeholder="" id="Phone-2"></div>
           </div><label for="Phone" class="field-label">Introduction</label><textarea placeholder="Introductions are great. Tell us a bit about yourself so that we can personalise our service further." maxlength="300" id="About-You" name="About-You" data-name="About You" class="textarea w-input"></textarea>
           <h1 class="heading-2">About Your Part</h1>
           <p class="paragraph">Vehicle Details</p><label class="w-radio"><input type="radio" data-name="Vehicle Type" id="Car" name="Vehicle-Type" value="Car" required="" class="w-form-formradioinput w-radio-input"><span for="Car" class="radio-button-label w-form-label">Car</span></label><label class="w-radio"><input type="radio" data-name="Vehicle Type" id="Motorcycle-2" name="Vehicle-Type" value="Motorcycle" required="" class="w-form-formradioinput w-radio-input"><span for="Motorcycle-2" class="radio-button-label w-form-label">Motorcycle</span></label><label class="radio-button-field w-radio"><input type="radio" data-name="Vehicle Type" id="Other" name="Vehicle-Type" value="Other" required="" class="w-form-formradioinput w-radio-input"><span for="Other" class="radio-button-label w-form-label">Other</span></label>
@@ -45,8 +49,7 @@
             <div class="column w-col w-col-4"><label for="Vehicle-Manufacturer" class="field-label">Model*</label><input type="text" class="text-field w-input" maxlength="256" name="Vehicle-Manufacturer" data-name="Vehicle Manufacturer" placeholder="" id="Vehicle-Manufacturer" required=""></div>
             <div class="column w-col w-col-4"><label for="Vehicle-Year-of-Manufacture" class="field-label">Year of Manufacture</label><input type="text" class="text-field w-input" maxlength="256" name="Vehicle-Year-of-Manufacture" data-name="Vehicle Year Of Manufacture" placeholder="" id="Vehicle-Year-of-Manufacture"></div>
           </div><label for="Vehicle-Make" class="field-label">Part Details*</label><textarea data-name="About Your Part" maxlength="1000" id="About-Your-Part" name="About-Your-Part" placeholder="Tell us about the part you need in detail. What is the part? What is it for? What are its operating conditions? Are there any problems that occur during use of the part that we can help solve?" required="" class="textarea w-input"></textarea><label for="Vehicle-Make" class="field-label">Do you currently have a functioning or broken version of the part available for 3D Scanning?*</label><label class="w-radio"><input type="radio" data-name="Part for 3D Scanning?" id="Yes" name="Part-for-3D-Scanning" value="Yes" required="" class="w-form-formradioinput w-radio-input"><span for="Yes" class="radio-button-label w-form-label">Yes</span></label><label class="radio-button-field w-radio"><input type="radio" data-name="Part for 3D Scanning?" id="No" name="Part-for-3D-Scanning" value="No" required="" class="w-form-formradioinput w-radio-input"><span for="No" class="radio-button-label w-form-label">No</span></label><label for="Vehicle-Make" class="field-label">Please attach any relevant information that will help us get your part made. Please provide as much as possible (Images, Technical Drawings, Manual Pages, PDF&#x27;s). If the files exceed the allowed upload size, please upload a zipped folder.</label>
-          <input type="file" name="file" multiple>
-		  <div data-sitekey="6LdUlAEVAAAAAL3iArhxDGYmOrDzQ3Xd2dwHWUda" class="w-form-formrecaptcha recaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled"></div><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
+          <div data-sitekey="6LdUlAEVAAAAAL3iArhxDGYmOrDzQ3Xd2dwHWUda" class="w-form-formrecaptcha recaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled"></div><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
         <div class="success-message w-form-done">
           <div class="text-block">Your submission has been received and we will get in contact as soon as possible.</div>
         </div>
