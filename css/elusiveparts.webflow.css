@@ -6,7 +6,7 @@
 .fileupload {
   margin-top: 20px;
   font-family: Europa, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -733,10 +733,6 @@
   .submit-button {
     font-size: 15px;
     line-height: 15px;
-  }
-  
-  .fileupload {
-    font-size: 15px;
   }
   
   .textarea {
