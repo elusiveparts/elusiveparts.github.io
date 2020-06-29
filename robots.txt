@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /complete.html
+Disallow: /privacypolicy.html
+
+Sitemap: https://www.elusive.parts/sitemap.xml

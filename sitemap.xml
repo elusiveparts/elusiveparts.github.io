@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.ord/schemas/sitemap/0.9">
+	
+	<url>
+
+		<loc>http://www.elusive.parts/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+
+	<url>
+
+		<loc>http://www.elusive.parts/privacypolicy.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+
+	<url>
+
+		<loc>http://www.elusive.parts/contact.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+
+	<url>
+
+		<loc>http://www.elusive.parts/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+
+	<url>
+
+		<loc>http://www.elusive.parts/getmypart.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+
+	<url>
+
+		<loc>http://www.elusive.parts/about.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+
+</urlset>
