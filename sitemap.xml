@@ -14,7 +14,7 @@
 
 		<loc>http://www.elusive.parts/privacypolicy.html</loc>
 		<changefreq>monthly</changefreq>
-		<priority>1.0</priority>
+		<priority>0.5</priority>
 	</url>
 
 
@@ -22,7 +22,7 @@
 
 		<loc>http://www.elusive.parts/contact.html</loc>
 		<changefreq>monthly</changefreq>
-		<priority>1.0</priority>
+		<priority>0.5</priority>
 	</url>
 
 
@@ -30,7 +30,7 @@
 
 		<loc>http://www.elusive.parts/index.html</loc>
 		<changefreq>monthly</changefreq>
-		<priority>1.0</priority>
+		<priority>0.5</priority>
 	</url>
 
 
@@ -38,7 +38,7 @@
 
 		<loc>http://www.elusive.parts/getmypart.html</loc>
 		<changefreq>monthly</changefreq>
-		<priority>1.0</priority>
+		<priority>0.8</priority>
 	</url>
 
 
